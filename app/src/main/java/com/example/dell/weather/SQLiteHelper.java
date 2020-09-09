@@ -51,7 +51,7 @@ public class SQLiteHelper extends SQLiteOpenHelper {
         String sql = "DELETE FROM HomeCityRecord WHERE id=?";
         SQLiteStatement statement = database.compileStatement(sql);
 
-        statement.clearBindings();;
+        statement.clearBindings();
         statement.bindDouble(1,(double)id);
 
         statement.execute();

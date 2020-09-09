@@ -19,11 +19,11 @@
         android:visibility="visible"
         app:arc_style="simple_arc" />
 
-    <android.support.constraint.ConstraintLayout
+    <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/constraintLayout"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:visibility="gone">
+        >
 
 
         <TextView
@@ -294,7 +294,7 @@
             app:layout_constraintVertical_bias="0.986" />
 
 
-    </android.support.constraint.ConstraintLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
 
 
 </RelativeLayout>

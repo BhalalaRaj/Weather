@@ -40,6 +40,7 @@ public class MainActivity extends AppCompatActivity {
     TextView city , forcast, minmaxtemp, temp, day, date, humidity, windspeed, sunrise, sunset;
 
     SimpleArcLoader loader;
+
     @RequiresApi(api = Build.VERSION_CODES.O)
     @Override
     protected void onCreate(Bundle savedInstanceState) {
